@@ -2,6 +2,7 @@ package me.ryan3018.mlgsoundboard;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.Context;
 import android.content.res.AssetFileDescriptor;
 import android.media.MediaPlayer;
 import android.support.v7.app.ActionBarActivity;
@@ -24,6 +25,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         final MediaPlayer triplemp = MediaPlayer.create(this, R.raw.ohbabyatriple);
 
@@ -388,8 +390,8 @@ public class MainActivity extends Activity {
         Button faze = (Button)this.findViewById(R.id.faze);
         faze.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent i = new Intent("faze");
+            public void onClick(View arg0) {
+                Intent i = new Intent(MainActivity.this, faze.class);
                 startActivity(i);
             }
         });
