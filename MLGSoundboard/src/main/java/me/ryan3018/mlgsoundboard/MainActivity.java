@@ -390,7 +390,7 @@ public class MainActivity extends Activity {
         Button faze = (Button)this.findViewById(R.id.faze);
         faze.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View arg0) {
+            public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, faze.class);
                 startActivity(i);
             }
