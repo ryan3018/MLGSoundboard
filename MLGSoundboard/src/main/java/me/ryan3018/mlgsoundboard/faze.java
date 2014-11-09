@@ -1,5 +1,6 @@
 package me.ryan3018.mlgsoundboard;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
@@ -380,6 +381,16 @@ public class faze extends ActionBarActivity {
                 ohhhhhmp.start();
             }
         });
+
+        Button faze = (Button)this.findViewById(R.id.faze);
+        faze.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent("faze");
+                startActivity(i);
+            }
+        });
+
     }
 
     @Override
