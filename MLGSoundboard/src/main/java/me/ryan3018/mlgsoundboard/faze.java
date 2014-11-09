@@ -1,5 +1,6 @@
 package me.ryan3018.mlgsoundboard;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.support.v7.app.ActionBarActivity;
@@ -15,7 +16,7 @@ import android.os.Build;
 import android.widget.Button;
 import me.ryan3018.mlgsoundboard.R;
 
-public class faze extends ActionBarActivity {
+public class faze extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -379,15 +380,6 @@ public class faze extends ActionBarActivity {
             @Override
             public void onClick(View view) {
                 ohhhhhmp.start();
-            }
-        });
-
-        Button faze = (Button)this.findViewById(R.id.faze);
-        faze.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent("faze");
-                startActivity(i);
             }
         });
 
