@@ -3,18 +3,9 @@ package me.ryan3018.mlgsoundboard;
 import android.app.Activity;
 import android.content.Intent;
 import android.media.MediaPlayer;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
-import android.support.v4.app.Fragment;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.os.Build;
 import android.widget.Button;
-import me.ryan3018.mlgsoundboard.R;
 
 public class faze extends Activity {
 
@@ -25,7 +16,7 @@ public class faze extends Activity {
 
         final MediaPlayer triplemp = MediaPlayer.create(this, R.raw.ohbabyatriple);
 
-        Button triple = (Button)this.findViewById(R.id.fazetriple);
+        Button triple = (Button)this.findViewById(R.id.triple);
         triple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -383,17 +374,13 @@ public class faze extends Activity {
             }
         });
 
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        switch (item.getItemId()) {
-            case R.id.action_settings:
-                return true;
-        }
-        return super.onOptionsItemSelected(item);
+        Button faze = (Button)this.findViewById(R.id.faze);
+        faze.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(faze.this, MainActivity.class);
+                faze.this.startActivity(myIntent);
+            }
+        });
     }
 }
