@@ -378,8 +378,8 @@ public class faze extends Activity {
         faze.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(faze.this, MainActivity.class);
-                faze.this.startActivity(myIntent);
+                Intent i= new Intent(faze.this, MainActivity.class);
+                startActivity(i);
             }
         });
     }

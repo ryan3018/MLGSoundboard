@@ -141,7 +141,6 @@ public class MainActivity extends Activity {
         });
 
         final MediaPlayer cameramp = MediaPlayer.create(this, R.raw.momgethecamera);
-
         Button camera = (Button)this.findViewById(R.id.camera);
         camera.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -384,8 +383,8 @@ public class MainActivity extends Activity {
         faze.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(MainActivity.this, faze.class);
-                MainActivity.this.startActivity(myIntent);
+                Intent i= new Intent(MainActivity.this, faze.class);
+                startActivity(i);
             }
         });
 
