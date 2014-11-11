@@ -352,6 +352,66 @@
         </LinearLayout>
 
         <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            <Button
+                    android:id="@+id/allahuakbar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Allahu Akbar"
+                    android:singleLine="true" />
+
+            <Button
+                    android:id="@+id/swamp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Swamp"
+                    android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            <Button
+                    android:id="@+id/swiggityswagg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Swiggity Swag"
+                    android:singleLine="true" />
+
+            <Button
+                    android:id="@+id/tiemyshoes"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tie My Shoes"
+                    android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            <Button
+                    android:id="@+id/zeldachest"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Zelda Chest"
+                    android:singleLine="true" />
+
+            <Button
+                    android:id="@+id/iminmemumscar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Broom Broom"
+                    android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" >
             <Button
@@ -360,7 +420,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Join OpTic"
-                android:onClick="openNewActivity"
                 android:singleLine="true" />
         </LinearLayout>
 

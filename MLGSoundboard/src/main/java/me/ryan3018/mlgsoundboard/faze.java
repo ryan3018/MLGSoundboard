@@ -374,8 +374,68 @@ public class faze extends Activity {
             }
         });
 
-        Button faze = (Button)this.findViewById(R.id.faze);
-        faze.setOnClickListener(new View.OnClickListener() {
+        final MediaPlayer allahuakbarmp = MediaPlayer.create(this, R.raw.allahuakbar);
+
+        final Button allahuakbar = (Button)this.findViewById(R.id.allahuakbar);
+        allahuakbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                allahuakbarmp.start();
+            }
+        });
+
+        final MediaPlayer swampmp = MediaPlayer.create(this, R.raw.swamp);
+
+        final Button swamp = (Button)this.findViewById(R.id.swamp);
+        swamp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                swampmp.start();
+            }
+        });
+
+        final MediaPlayer swiggityswaggmp = MediaPlayer.create(this, R.raw.swiggityswagg);
+
+        final Button swijggityswagg = (Button)this.findViewById(R.id.swiggityswagg);
+        swijggityswagg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                swiggityswaggmp.start();
+            }
+        });
+
+        final MediaPlayer tiemyshoesmp = MediaPlayer.create(this, R.raw.tiemyshoes);
+
+        final Button tiemyshoes = (Button)this.findViewById(R.id.tiemyshoes);
+        tiemyshoes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                tiemyshoesmp.start();
+            }
+        });
+
+        final MediaPlayer zeldachestmp = MediaPlayer.create(this, R.raw.zeldachest);
+
+        final Button zeldachest = (Button)this.findViewById(R.id.zeldachest);
+        zeldachest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                zeldachestmp.start();
+            }
+        });
+
+        final MediaPlayer iminmemumscarmp = MediaPlayer.create(this, R.raw.iminmemumscar);
+
+        final Button iminmemumscar = (Button)this.findViewById(R.id.iminmemumscar);
+        iminmemumscar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                iminmemumscarmp.start();
+            }
+        });
+
+        Button optic = (Button)this.findViewById(R.id.optic);
+        optic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i= new Intent(faze.this, MainActivity.class);

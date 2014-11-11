@@ -379,6 +379,70 @@ public class MainActivity extends Activity {
             }
         });
 
+        /* Just some tips, so you can erase these comments later. */
+
+        //Make sure you add these media players and buttons in the faze.java and also put the buttons in the faze_fragment_main.xml. Those are the files for the join faze button. You can just copy and paste them.
+
+        final MediaPlayer allahuakbarmp = MediaPlayer.create(this, R.raw.allahuakbar); //You got this part right.
+
+        final Button allahuakbar = (Button)this.findViewById(R.id.allahuakbar); //This was right as well.
+        allahuakbar.setOnClickListener(new View.OnClickListener() { //Notice how I put the button name before the setOnClickListener function. I noticed that you put oh.setOnClickListener. That was why it didn't work.
+            @Override
+            public void onClick(View view) {
+                allahuakbarmp.start();
+            }
+        });
+
+        final MediaPlayer swampmp = MediaPlayer.create(this, R.raw.swamp);
+
+        final Button swamp = (Button)this.findViewById(R.id.swamp);
+        swamp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                swampmp.start();
+            }
+        });
+
+        final MediaPlayer swiggityswaggmp = MediaPlayer.create(this, R.raw.swiggityswagg);
+
+        final Button swijggityswagg = (Button)this.findViewById(R.id.swiggityswagg);
+        swijggityswagg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                swiggityswaggmp.start();
+            }
+        });
+
+        final MediaPlayer tiemyshoesmp = MediaPlayer.create(this, R.raw.tiemyshoes);
+
+        final Button tiemyshoes = (Button)this.findViewById(R.id.tiemyshoes);
+        tiemyshoes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                tiemyshoesmp.start();
+            }
+        });
+
+        final MediaPlayer zeldachestmp = MediaPlayer.create(this, R.raw.zeldachest);
+
+        final Button zeldachest = (Button)this.findViewById(R.id.zeldachest);
+        zeldachest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                zeldachestmp.start();
+            }
+        });
+
+        final MediaPlayer iminmemumscarmp = MediaPlayer.create(this, R.raw.iminmemumscar);
+
+        final Button iminmemumscar = (Button)this.findViewById(R.id.iminmemumscar);
+        iminmemumscar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                iminmemumscarmp.start();
+            }
+        });
+
         Button faze = (Button)this.findViewById(R.id.faze);
         faze.setOnClickListener(new View.OnClickListener() {
             @Override
