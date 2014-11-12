@@ -132,7 +132,7 @@ public class MainActivity extends Activity {
 
         final MediaPlayer weedmp = MediaPlayer.create(this, R.raw.snoopdoggsmokeweedeveryday);
 
-        Button weed = (Button)this.findViewById(R.id.gaylord);
+        Button weed = (Button)this.findViewById(R.id.weed);
         weed.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -141,6 +141,7 @@ public class MainActivity extends Activity {
         });
 
         final MediaPlayer cameramp = MediaPlayer.create(this, R.raw.momgethecamera);
+
         Button camera = (Button)this.findViewById(R.id.camera);
         camera.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -126,7 +126,7 @@ public class faze extends Activity {
 
         final MediaPlayer weedmp = MediaPlayer.create(this, R.raw.snoopdoggsmokeweedeveryday);
 
-        Button weed = (Button)this.findViewById(R.id.gaylord);
+        Button weed = (Button)this.findViewById(R.id.weed);
         weed.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
