@@ -74,7 +74,7 @@ public class faze extends Activity {
             }
         });
 
-        final MediaPlayer scrubbmp = MediaPlayer.create(this, R.raw.scrubbmp3);
+        final MediaPlayer scrubbmp = MediaPlayer.create(this, R.raw.scrubb);
 
         Button scrubb = (Button)this.findViewById(R.id.scrubb);
         scrubb.setOnClickListener(new View.OnClickListener() {
@@ -134,7 +134,7 @@ public class faze extends Activity {
             }
         });
 
-        final MediaPlayer cameramp = MediaPlayer.create(this, R.raw.momgethecamera);
+        final MediaPlayer cameramp = MediaPlayer.create(this, R.raw.momgetthecamera);
 
         Button camera = (Button)this.findViewById(R.id.camera);
         camera.setOnClickListener(new View.OnClickListener() {
@@ -244,7 +244,7 @@ public class faze extends Activity {
             }
         });
 
-        final MediaPlayer watchasaymp = MediaPlayer.create(this, R.raw.whatchasay);
+        final MediaPlayer watchasaymp = MediaPlayer.create(this, R.raw.watchasay);
 
         Button watchasay = (Button)this.findViewById(R.id.watchasay);
         watchasay.setOnClickListener(new View.OnClickListener() {
@@ -334,7 +334,7 @@ public class faze extends Activity {
             }
         });
 
-        final MediaPlayer surprisemp = MediaPlayer.create(this, R.raw.surprisemotherfucker);
+        final MediaPlayer surprisemp = MediaPlayer.create(this, R.raw.suprisemotherfucker);
 
         Button surprise = (Button)this.findViewById(R.id.surprise);
         surprise.setOnClickListener(new View.OnClickListener() {
@@ -396,8 +396,8 @@ public class faze extends Activity {
 
         final MediaPlayer swiggityswaggmp = MediaPlayer.create(this, R.raw.swiggityswagg);
 
-        final Button swijggityswagg = (Button)this.findViewById(R.id.swiggityswagg);
-        swijggityswagg.setOnClickListener(new View.OnClickListener() {
+        final Button swiggityswagg = (Button)this.findViewById(R.id.swiggityswagg);
+        swiggityswagg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 swiggityswaggmp.start();
@@ -434,12 +434,270 @@ public class faze extends Activity {
             }
         });
 
+        final MediaPlayer fuckyeahmp = MediaPlayer.create(this, R.raw.fuckyeahcunt);
+
+        final Button fuckyeah = (Button)this.findViewById(R.id.fuckyeah);
+        fuckyeah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                fuckyeahmp.start();
+            }
+        });
+
+        final MediaPlayer wrongnumbermp = MediaPlayer.create(this, R.raw.wrongnumber);
+
+        final Button wrongnumber = (Button)this.findViewById(R.id.wrongnumber);
+        wrongnumber.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                wrongnumbermp.start();
+            }
+        });
+
+        final MediaPlayer realtrapmp = MediaPlayer.create(this, R.raw.realtrapshit);
+
+        final Button realtrap = (Button)this.findViewById(R.id.realtrap);
+        realtrap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                realtrapmp.start();
+            }
+        });
+
+        final MediaPlayer hasswagmp = MediaPlayer.create(this, R.raw.thishasswag);
+
+        final Button hasswag = (Button)this.findViewById(R.id.hasswag);
+        hasswag.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                hasswagmp.start();
+            }
+        });
+
+        final MediaPlayer tooslowmp = MediaPlayer.create(this, R.raw.yourtooslow);
+
+        final Button tooslow = (Button)this.findViewById(R.id.tooslow);
+        tooslow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                tooslowmp.start();
+            }
+        });
+
+        final MediaPlayer weed2mp = MediaPlayer.create(this, R.raw.shortweed);
+
+        final Button weed2 = (Button)this.findViewById(R.id.weed2);
+        weed2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                weed2mp.start();
+            }
+        });
+
         Button optic = (Button)this.findViewById(R.id.optic);
         optic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i= new Intent(faze.this, MainActivity.class);
                 startActivity(i);
+            }
+        });
+        Button stop = (Button) this.findViewById(R.id.stop);
+        stop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (triplemp.isPlaying()) {
+                    triplemp.pause();
+                    triplemp.seekTo(0);
+                }
+                if (damnsonmp.isPlaying()) {
+                    damnsonmp.pause();
+                    damnsonmp.seekTo(0);
+                }
+                if (interventionmp.isPlaying()) {
+                    interventionmp.pause();
+                    interventionmp.seekTo(0);
+                }
+                if (wombomp.isPlaying()) {
+                    wombomp.pause();
+                    wombomp.seekTo(0);
+                }
+                if (noscopedmp.isPlaying()) {
+                    noscopedmp.pause();
+                    noscopedmp.seekTo(0);
+                }
+                if (hitmarkermp.isPlaying()) {
+                    hitmarkermp.pause();
+                    hitmarkermp.seekTo(0);
+                }
+                if (scrubbmp.isPlaying()) {
+                    scrubbmp.pause();
+                    scrubbmp.seekTo(0);
+                }
+                if (hardscopermp.isPlaying()) {
+                    hardscopermp.pause();
+                    hardscopermp.seekTo(0);
+                }
+                if (quickscopermp.isPlaying()) {
+                    quickscopermp.pause();
+                    quickscopermp.seekTo(0);
+                }
+                if (screammp.isPlaying()) {
+                    screammp.pause();
+                    screammp.seekTo(0);
+                }
+                if (gaylordmp.isPlaying()) {
+                    gaylordmp.pause();
+                    gaylordmp.seekTo(0);
+                }
+                if (weedmp.isPlaying()) {
+                    weedmp.pause();
+                    weedmp.seekTo(0);
+                }
+                if (cameramp.isPlaying()) {
+                    cameramp.pause();
+                    cameramp.seekTo(0);
+                }
+                if (airhornmp.isPlaying()) {
+                    airhornmp.pause();
+                    airhornmp.seekTo(0);
+                }
+                if (sed4airhornmp.isPlaying()) {
+                    sed4airhornmp.pause();
+                    sed4airhornmp.seekTo(0);
+                }
+                if (dankstormmp.isPlaying()) {
+                    dankstormmp.pause();
+                    dankstormmp.seekTo(0);
+                }
+                if (wowmp.isPlaying()) {
+                    wowmp.pause();
+                    wowmp.seekTo(0);
+                }
+                if (sed5memp.isPlaying()) {
+                    sed5memp.pause();
+                    sed5memp.seekTo(0);
+                }
+                if (nukiesmp.isPlaying()) {
+                    nukiesmp.pause();
+                    nukiesmp.seekTo(0);
+                }
+                if (sanicmp.isPlaying()) {
+                    sanicmp.pause();
+                    sanicmp.seekTo(0);
+                }
+                if (spookymp.isPlaying()) {
+                    spookymp.pause();
+                    spookymp.seekTo(0);
+                }
+                if (wammp.isPlaying()) {
+                    wammp.pause();
+                    wammp.seekTo(0);
+                }
+                if (skrilzmp.isPlaying()) {
+                    skrilzmp.pause();
+                    skrilzmp.seekTo(0);
+                }
+                if (watchasaymp.isPlaying()) {
+                    watchasaymp.pause();
+                    watchasaymp.seekTo(0);
+                }
+                if (quaadmp.isPlaying()) {
+                    quaadmp.pause();
+                    quaadmp.seekTo(0);
+                }
+                if (kushmp.isPlaying()) {
+                    kushmp.pause();
+                    kushmp.seekTo(0);
+                }
+                if (kmonmp.isPlaying()) {
+                    kmonmp.pause();
+                    kmonmp.seekTo(0);
+                }
+                if (ayemp.isPlaying()) {
+                    ayemp.pause();
+                    ayemp.seekTo(0);
+                }
+                if (crawlingmp.isPlaying()) {
+                    crawlingmp.pause();
+                    crawlingmp.seekTo(0);
+                }
+                if (bassmp.isPlaying()) {
+                    bassmp.pause();
+                    bassmp.seekTo(0);
+                }
+                if (dotamp.isPlaying()) {
+                    dotamp.pause();
+                    dotamp.seekTo(0);
+                }
+                if (fuckhermp.isPlaying()) {
+                    fuckhermp.pause();
+                    fuckhermp.seekTo(0);
+                }
+                if (surprisemp.isPlaying()) {
+                    surprisemp.pause();
+                    surprisemp.seekTo(0);
+                }
+                if (rappermp.isPlaying()) {
+                    rappermp.pause();
+                    rappermp.seekTo(0);
+                }
+                if (gtgfastmp.isPlaying()) {
+                    gtgfastmp.pause();
+                    gtgfastmp.seekTo(0);
+                }
+                if (ohhhhhmp.isPlaying()) {
+                    ohhhhhmp.pause();
+                    ohhhhhmp.seekTo(0);
+                }
+                if (allahuakbarmp.isPlaying()) {
+                    allahuakbarmp.pause();
+                    allahuakbarmp.seekTo(0);
+                }
+                if (swampmp.isPlaying()) {
+                    swampmp.pause();
+                    swampmp.seekTo(0);
+                }
+                if (swiggityswaggmp.isPlaying()) {
+                    swiggityswaggmp.pause();
+                    swiggityswaggmp.seekTo(0);
+                }
+                if (tiemyshoesmp.isPlaying()) {
+                    tiemyshoesmp.pause();
+                    tiemyshoesmp.seekTo(0);
+                }
+                if (zeldachestmp.isPlaying()) {
+                    zeldachestmp.pause();
+                    zeldachestmp.seekTo(0);
+                }
+                if (iminmemumscarmp.isPlaying()) {
+                    iminmemumscarmp.pause();
+                    iminmemumscarmp.seekTo(0);
+                }
+                if (fuckyeahmp.isPlaying()) {
+                    fuckyeahmp.pause();
+                    fuckyeahmp.seekTo(0);
+                }
+                if (wrongnumbermp.isPlaying()) {
+                    wrongnumbermp.pause();
+                    wrongnumbermp.seekTo(0);
+                }
+                if (realtrapmp.isPlaying()) {
+                    realtrapmp.pause();
+                    realtrapmp.seekTo(0);
+                }
+                if (hasswagmp.isPlaying()) {
+                    hasswagmp.pause();
+                    hasswagmp.seekTo(0);
+                }
+                if (tooslowmp.isPlaying()) {
+                    tooslowmp.pause();
+                    tooslowmp.seekTo(0);
+                }
+                if (weed2mp.isPlaying()) {
+                    weed2mp.pause();
+                    weed2mp.seekTo(0);
+                }
             }
         });
     }
