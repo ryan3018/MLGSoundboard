@@ -20,7 +20,12 @@ public class faze extends Activity {
         triple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                triplemp.start();
+                if(triplemp.isPlaying()) {
+                    triplemp.seekTo(0);
+                }
+                else {
+                    triplemp.start();
+                }
             }
         });
 
@@ -30,7 +35,12 @@ public class faze extends Activity {
         damnson.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                damnsonmp.start();
+                if(damnsonmp.isPlaying()) {
+                    damnsonmp.seekTo(0);
+                }
+                else {
+                    damnsonmp.start();
+                }
             }
         });
 
@@ -40,7 +50,12 @@ public class faze extends Activity {
         intervention.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                interventionmp.start();
+                if(interventionmp.isPlaying()) {
+                    interventionmp.seekTo(0);
+                }
+                else {
+                    interventionmp.start();
+                }
             }
         });
 
@@ -50,7 +65,12 @@ public class faze extends Activity {
         wombo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                wombomp.start();
+                if(wombomp.isPlaying()) {
+                    wombomp.seekTo(0);
+                }
+                else {
+                    wombomp.start();
+                }
             }
         });
 
@@ -60,7 +80,12 @@ public class faze extends Activity {
         noscoped.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                noscopedmp.start();
+                if(noscopedmp.isPlaying()) {
+                    noscopedmp.seekTo(0);
+                }
+                else {
+                    noscopedmp.start();
+                }
             }
         });
 
@@ -70,17 +95,27 @@ public class faze extends Activity {
         hitmarker.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                hitmarkermp.start();
+                if(hitmarkermp.isPlaying()) {
+                    hitmarkermp.seekTo(0);
+                }
+                else {
+                    hitmarkermp.start();
+                }
             }
         });
 
-        final MediaPlayer scrubbmp = MediaPlayer.create(this, R.raw.scrubb);
+        final MediaPlayer scrubbmp = MediaPlayer.create(this, R.raw.scrubbmp3);
 
         Button scrubb = (Button)this.findViewById(R.id.scrubb);
         scrubb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                scrubbmp.start();
+                if(scrubbmp.isPlaying()) {
+                    scrubbmp.seekTo(0);
+                }
+                else {
+                    scrubbmp.start();
+                }
             }
         });
 
@@ -90,7 +125,12 @@ public class faze extends Activity {
         hardscoper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                hardscopermp.start();
+                if(hardscopermp.isPlaying()) {
+                    hardscopermp.seekTo(0);
+                }
+                else {
+                    hardscopermp.start();
+                }
             }
         });
 
@@ -100,7 +140,12 @@ public class faze extends Activity {
         quickscoper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                quickscopermp.start();
+                if(quickscopermp.isPlaying()) {
+                    quickscopermp.seekTo(0);
+                }
+                else {
+                    quickscopermp.start();
+                }
             }
         });
 
@@ -110,7 +155,12 @@ public class faze extends Activity {
         scream.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                screammp.start();
+                if(screammp.isPlaying()) {
+                    screammp.seekTo(0);
+                }
+                else {
+                    screammp.start();
+                }
             }
         });
 
@@ -120,7 +170,12 @@ public class faze extends Activity {
         gaylord.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                gaylordmp.start();
+                if(gaylordmp.isPlaying()) {
+                    gaylordmp.seekTo(0);
+                }
+                else {
+                    gaylordmp.start();
+                }
             }
         });
 
@@ -130,17 +185,27 @@ public class faze extends Activity {
         weed.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                weedmp.start();
+                if(weedmp.isPlaying()) {
+                    weedmp.seekTo(0);
+                }
+                else {
+                    weedmp.start();
+                }
             }
         });
 
-        final MediaPlayer cameramp = MediaPlayer.create(this, R.raw.momgetthecamera);
+        final MediaPlayer cameramp = MediaPlayer.create(this, R.raw.momgethecamera);
 
         Button camera = (Button)this.findViewById(R.id.camera);
         camera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                cameramp.start();
+                if(cameramp.isPlaying()) {
+                    cameramp.seekTo(0);
+                }
+                else {
+                    cameramp.start();
+                }
             }
         });
 
@@ -150,7 +215,12 @@ public class faze extends Activity {
         airhorn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                airhornmp.start();
+                if(airhornmp.isPlaying()) {
+                    airhornmp.seekTo(0);
+                }
+                else {
+                    airhornmp.start();
+                }
             }
         });
 
@@ -160,7 +230,12 @@ public class faze extends Activity {
         sed4airhorn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                sed4airhornmp.start();
+                if(sed4airhornmp.isPlaying()) {
+                    sed4airhornmp.seekTo(0);
+                }
+                else {
+                    sed4airhornmp.start();
+                }
             }
         });
 
@@ -170,7 +245,12 @@ public class faze extends Activity {
         dankstorm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dankstormmp.start();
+                if(dankstormmp.isPlaying()) {
+                    dankstormmp.seekTo(0);
+                }
+                else {
+                    dankstormmp.start();
+                }
             }
         });
 
@@ -180,7 +260,12 @@ public class faze extends Activity {
         wow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                wowmp .start();
+                if(wowmp.isPlaying()) {
+                    wowmp.seekTo(0);
+                }
+                else {
+                    wowmp.start();
+                }
             }
         });
 
@@ -190,7 +275,12 @@ public class faze extends Activity {
         sed5me.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                sed5memp .start();
+                if(sed5memp.isPlaying()) {
+                    sed5memp.seekTo(0);
+                }
+                else {
+                    sed5memp.start();
+                }
             }
         });
 
@@ -200,7 +290,12 @@ public class faze extends Activity {
         nukies.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                nukiesmp.start();
+                if(nukiesmp.isPlaying()) {
+                    nukiesmp.seekTo(0);
+                }
+                else {
+                    nukiesmp.start();
+                }
             }
         });
 
@@ -210,7 +305,12 @@ public class faze extends Activity {
         sanic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                sanicmp.start();
+                if(sanicmp.isPlaying()) {
+                    sanicmp.seekTo(0);
+                }
+                else {
+                    sanicmp.start();
+                }
             }
         });
 
@@ -220,7 +320,12 @@ public class faze extends Activity {
         spooky.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                spookymp.start();
+                if(spookymp.isPlaying()) {
+                    spookymp.seekTo(0);
+                }
+                else {
+                    spookymp.start();
+                }
             }
         });
 
@@ -230,27 +335,42 @@ public class faze extends Activity {
         wam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                wammp.start();
+                if(wammp.isPlaying()) {
+                    wammp.seekTo(0);
+                }
+                else {
+                    wammp.start();
+                }
             }
         });
 
         final MediaPlayer skrilzmp = MediaPlayer.create(this, R.raw.skrillexscary);
 
-        Button skrilz = (Button)this.findViewById(R.id.skrilz);
+        final Button skrilz = (Button)this.findViewById(R.id.skrilz);
         skrilz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                skrilzmp.start();
+                if(skrilzmp.isPlaying()) {
+                    skrilzmp.seekTo(0);
+                }
+                else {
+                    skrilzmp.start();
+                }
             }
         });
 
-        final MediaPlayer watchasaymp = MediaPlayer.create(this, R.raw.watchasay);
+        final MediaPlayer watchasaymp = MediaPlayer.create(this, R.raw.whatchasay);
 
         Button watchasay = (Button)this.findViewById(R.id.watchasay);
         watchasay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                watchasaymp.start();
+                if(watchasaymp.isPlaying()) {
+                    watchasaymp.seekTo(0);
+                }
+                else {
+                    watchasaymp.start();
+                }
             }
         });
 
@@ -260,7 +380,12 @@ public class faze extends Activity {
         quaad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                quaadmp.start();
+                if(quaadmp.isPlaying()) {
+                    quaadmp.seekTo(0);
+                }
+                else {
+                    quaadmp.start();
+                }
             }
         });
 
@@ -270,7 +395,12 @@ public class faze extends Activity {
         kush.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                kushmp.start();
+                if(kushmp.isPlaying()) {
+                    kushmp.seekTo(0);
+                }
+                else {
+                    kushmp.start();
+                }
             }
         });
 
@@ -280,7 +410,12 @@ public class faze extends Activity {
         kmon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                kmonmp.start();
+                if(kmonmp.isPlaying()) {
+                    kmonmp.seekTo(0);
+                }
+                else {
+                    kmonmp.start();
+                }
             }
         });
 
@@ -290,7 +425,12 @@ public class faze extends Activity {
         aye.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ayemp.start();
+                if(ayemp.isPlaying()) {
+                    ayemp.seekTo(0);
+                }
+                else {
+                    ayemp.start();
+                }
             }
         });
 
@@ -300,7 +440,12 @@ public class faze extends Activity {
         crawling.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                crawlingmp.start();
+                if(crawlingmp.isPlaying()) {
+                    crawlingmp.seekTo(0);
+                }
+                else {
+                    crawlingmp.start();
+                }
             }
         });
 
@@ -310,17 +455,27 @@ public class faze extends Activity {
         bass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                bassmp.start();
+                if(bassmp.isPlaying()) {
+                    bassmp.seekTo(0);
+                }
+                else {
+                    bassmp.start();
+                }
             }
         });
 
         final MediaPlayer dotamp = MediaPlayer.create(this, R.raw.dota);
 
-        Button dota = (Button)this.findViewById(R.id.dota);
+        final Button dota = (Button)this.findViewById(R.id.dota);
         dota.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dotamp.start();
+                if(dotamp.isPlaying()) {
+                    dotamp.seekTo(0);
+                }
+                else {
+                    dotamp.start();
+                }
             }
         });
 
@@ -330,7 +485,12 @@ public class faze extends Activity {
         fuckher.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                fuckhermp.start();
+                if(fuckhermp.isPlaying()) {
+                    fuckhermp.seekTo(0);
+                }
+                else {
+                    fuckhermp.start();
+                }
             }
         });
 
@@ -340,7 +500,12 @@ public class faze extends Activity {
         surprise.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                surprisemp.start();
+                if(surprisemp.isPlaying()) {
+                    surprisemp.seekTo(0);
+                }
+                else {
+                    surprisemp.start();
+                }
             }
         });
 
@@ -350,7 +515,12 @@ public class faze extends Activity {
         rapper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                rappermp.start();
+                if(rappermp.isPlaying()) {
+                    rappermp.seekTo(0);
+                }
+                else {
+                    rappermp.start();
+                }
             }
         });
 
@@ -360,7 +530,12 @@ public class faze extends Activity {
         gtgfast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                gtgfastmp.start();
+                if(gtgfastmp.isPlaying()) {
+                    gtgfastmp.seekTo(0);
+                }
+                else {
+                    gtgfastmp.start();
+                }
             }
         });
 
@@ -370,9 +545,15 @@ public class faze extends Activity {
         oh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ohhhhhmp.start();
+                if(ohhhhhmp.isPlaying()) {
+                    ohhhhhmp.seekTo(0);
+                }
+                else {
+                    ohhhhhmp.start();
+                }
             }
         });
+
 
         final MediaPlayer allahuakbarmp = MediaPlayer.create(this, R.raw.allahuakbar);
 
@@ -380,7 +561,12 @@ public class faze extends Activity {
         allahuakbar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                allahuakbarmp.start();
+                if(allahuakbarmp.isPlaying()) {
+                    allahuakbarmp.seekTo(0);
+                }
+                else {
+                    allahuakbarmp.start();
+                }
             }
         });
 
@@ -390,7 +576,12 @@ public class faze extends Activity {
         swamp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                swampmp.start();
+                if(swampmp.isPlaying()) {
+                    swampmp.seekTo(0);
+                }
+                else {
+                    swampmp.start();
+                }
             }
         });
 
@@ -400,7 +591,12 @@ public class faze extends Activity {
         swiggityswagg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                swiggityswaggmp.start();
+                if(swiggityswaggmp.isPlaying()) {
+                    swiggityswaggmp.seekTo(0);
+                }
+                else {
+                    swiggityswaggmp.start();
+                }
             }
         });
 
@@ -410,7 +606,12 @@ public class faze extends Activity {
         tiemyshoes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                tiemyshoesmp.start();
+                if(tiemyshoesmp.isPlaying()) {
+                    tiemyshoesmp.seekTo(0);
+                }
+                else {
+                    tiemyshoesmp.start();
+                }
             }
         });
 
@@ -420,7 +621,12 @@ public class faze extends Activity {
         zeldachest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                zeldachestmp.start();
+                if(zeldachestmp.isPlaying()) {
+                    zeldachestmp.seekTo(0);
+                }
+                else {
+                    zeldachestmp.start();
+                }
             }
         });
 
@@ -430,7 +636,12 @@ public class faze extends Activity {
         iminmemumscar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                iminmemumscarmp.start();
+                if(iminmemumscarmp.isPlaying()) {
+                    iminmemumscarmp.seekTo(0);
+                }
+                else {
+                    iminmemumscarmp.start();
+                }
             }
         });
 
@@ -440,7 +651,12 @@ public class faze extends Activity {
         fuckyeah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                fuckyeahmp.start();
+                if(fuckyeahmp.isPlaying()) {
+                    fuckyeahmp.seekTo(0);
+                }
+                else {
+                    fuckyeahmp.start();
+                }
             }
         });
 
@@ -450,7 +666,12 @@ public class faze extends Activity {
         wrongnumber.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                wrongnumbermp.start();
+                if(wrongnumbermp.isPlaying()) {
+                    wrongnumbermp.seekTo(0);
+                }
+                else {
+                    wrongnumbermp.start();
+                }
             }
         });
 
@@ -460,7 +681,12 @@ public class faze extends Activity {
         realtrap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                realtrapmp.start();
+                if(realtrapmp.isPlaying()) {
+                    realtrapmp.seekTo(0);
+                }
+                else {
+                    realtrapmp.start();
+                }
             }
         });
 
@@ -470,7 +696,12 @@ public class faze extends Activity {
         hasswag.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                hasswagmp.start();
+                if(hasswagmp.isPlaying()) {
+                    hasswagmp.seekTo(0);
+                }
+                else {
+                    hasswagmp.start();
+                }
             }
         });
 
@@ -480,7 +711,12 @@ public class faze extends Activity {
         tooslow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                tooslowmp.start();
+                if(tooslowmp.isPlaying()) {
+                    tooslowmp.seekTo(0);
+                }
+                else {
+                    tooslowmp.start();
+                }
             }
         });
 
@@ -490,7 +726,12 @@ public class faze extends Activity {
         weed2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                weed2mp.start();
+                if(weed2mp.isPlaying()) {
+                    weed2mp.seekTo(0);
+                }
+                else {
+                    weed2mp.start();
+                }
             }
         });
 
