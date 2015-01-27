@@ -472,6 +472,70 @@
                     android:singleLine="true" />
         </LinearLayout>
 
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/crystalweed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Crystal Fuckin' Weed"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/epicweedeveryday"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Epic Weed Everyday"
+                android:singleLine="true" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/superweedbros"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Super Weed Bros"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/marijuanacigarettes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Marijuana Cigarettes"
+                android:singleLine="true" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/thuglife"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Thug Life"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/boomheadshot"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Boom Headshot!"
+                android:singleLine="true" />
+        </LinearLayout>
+
+
         <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="49dp" >

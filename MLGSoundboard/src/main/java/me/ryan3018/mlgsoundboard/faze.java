@@ -735,6 +735,100 @@ public class faze extends Activity {
             }
         });
 
+
+        final MediaPlayer crystalweedmp = MediaPlayer.create(this,R.raw.crystalweed);
+
+        final Button crystalweed = (Button)this.findViewById(R.id.crystalweed);
+        crystalweed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(crystalweedmp.isPlaying()) {
+                    crystalweedmp.seekTo(0);
+                }
+                else {
+                    crystalweedmp.start();
+                }
+            }
+        });
+
+
+        final MediaPlayer epicweedeverydaymp = MediaPlayer.create(this,R.raw.epicweedeveryday);
+
+        final Button epicweedeveryday = (Button)this.findViewById(R.id.epicweedeveryday);
+        epicweedeveryday.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(epicweedeverydaymp.isPlaying()) {
+                    epicweedeverydaymp.seekTo(0);
+                }
+                else {
+                    epicweedeverydaymp.start();
+                }
+            }
+        });
+
+
+        final MediaPlayer superweedbrosmp = MediaPlayer.create(this,R.raw.superweedbros);
+
+        final Button superweedbros = (Button)this.findViewById(R.id.superweedbros);
+        superweedbros.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(superweedbrosmp.isPlaying()) {
+                    superweedbrosmp.seekTo(0);
+                }
+                else {
+                    superweedbrosmp.start();
+                }
+            }
+        });
+
+        final MediaPlayer marijuanacigarretesmp = MediaPlayer.create(this,R.raw.marijuanacigarretes);
+
+        final Button marijuanacigarretes = (Button)this.findViewById(R.id.marijuanacigarettes);
+        marijuanacigarretes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(marijuanacigarretesmp.isPlaying()) {
+                    marijuanacigarretesmp.seekTo(0);
+                }
+                else {
+                    marijuanacigarretesmp.start();
+                }
+            }
+        });
+
+
+        final MediaPlayer thuglifemp = MediaPlayer.create(this,R.raw.thuglife);
+
+        final Button thuglife = (Button)this.findViewById(R.id.thuglife);
+        thuglife.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(thuglifemp.isPlaying()) {
+                    thuglifemp.seekTo(0);
+                }
+                else {
+                    thuglifemp.start();
+                }
+            }
+        });
+
+        final MediaPlayer boomheadshotmp = MediaPlayer.create(this,R.raw.boomheadshot);
+
+        final Button boomheadshot = (Button)this.findViewById(R.id.boomheadshot);
+        boomheadshot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(boomheadshotmp.isPlaying()) {
+                    boomheadshotmp.seekTo(0);
+                }
+                else {
+                    boomheadshotmp.start();
+                }
+            }
+        });
+
         Button optic = (Button)this.findViewById(R.id.optic);
         optic.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -938,6 +1032,30 @@ public class faze extends Activity {
                 if (weed2mp.isPlaying()) {
                     weed2mp.pause();
                     weed2mp.seekTo(0);
+                }
+                if(crystalweedmp.isPlaying()){
+                    crystalweedmp.pause();
+                    crystalweedmp.seekTo(0);
+                }
+                if(epicweedeverydaymp.isPlaying()){
+                    epicweedeverydaymp.pause();
+                    epicweedeverydaymp.seekTo(0);
+                }
+                if(superweedbrosmp.isPlaying()){
+                    superweedbrosmp.pause();
+                    superweedbrosmp.seekTo(0);
+                }
+                if(marijuanacigarretesmp.isPlaying()){
+                    marijuanacigarretesmp.pause();
+                    marijuanacigarretesmp.seekTo(0);
+                }
+                if(thuglifemp.isPlaying()){
+                    thuglifemp.pause();
+                    thuglifemp.seekTo(0);
+                }
+                if(boomheadshotmp.isPlaying()){
+                    boomheadshotmp.pause();
+                    boomheadshotmp.seekTo(0);
                 }
             }
         });
