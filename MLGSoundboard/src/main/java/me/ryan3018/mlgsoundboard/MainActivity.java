@@ -784,7 +784,7 @@ public class MainActivity extends Activity {
             }
         });
 
-        final MediaPlayer marijuanacigarretesmp = MediaPlayer.create(this,R.raw.marijuanacigarretes);
+        final MediaPlayer marijuanacigarretesmp = MediaPlayer.create(this,R.raw.marijuanacigarettes);
 
         final Button marijuanacigarretes = (Button)this.findViewById(R.id.marijuanacigarettes);
         marijuanacigarretes.setOnClickListener(new View.OnClickListener() {
